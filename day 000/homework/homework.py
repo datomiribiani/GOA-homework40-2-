@@ -76,7 +76,8 @@ print(input * 10)
 input("enter your name:")
 input("enter your surname:")
 input("enter your age:")
-print(int(input) + str(input) + str(input) )
+input("enter your simagle")
+print (int(input) + str(input) + str(input) float(input)) 
 
 
 # 9) gavaswore wina gakvetilze
