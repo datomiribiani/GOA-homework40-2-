@@ -35,7 +35,7 @@ print(car_model + str(car_price) + car_color + str(car_year))
 int_name =  5
 str_name = "dato"
 float_name = 4.7
-bool_name = ture and False
+bool_name = True and False
 
 
 # 7)მომხმარებელს შემოატანინეთ საცხოვრებელი ადგილი და საყვარელი ცხოველი
@@ -62,10 +62,10 @@ print(num_one == num_two)
 print(num_one / num_two)
 print(num_one % num_two)
 print(num_one ** num_two)
-# % არის მათემატიკური ნიშანი სადაც ვიგებთ რაგაც ნაწილს და ვყოფთ თავიდან მთლიანადა არის 100% და რო გვეტყვიან 100 20% ანუ 100 უნდა გავამრავლოთ 0.20 ზე და იქნება 20
+ 
 
 
-# 10) SOLOLEARNI GAVAKETE
+# 10) 
 
 
 

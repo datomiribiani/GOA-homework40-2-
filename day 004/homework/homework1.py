@@ -1,5 +1,7 @@
 # 2) მომხმარებელს შემოატანინე რიცხვი და მომხმარებლის შემოტანილი რიცხვიდან ამ რიცხვის კვადრატის ჩათვლით გამოიტანეთ ყველა რიცხვის ჯამი
 num = int(input("enter your num:"))
-for i in range(num):
-    print(i ** num*2)
+sum = 0
+for i in range(num,num**2):
+    sum += i
+print(sum)
  

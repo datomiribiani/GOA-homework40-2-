@@ -2,4 +2,4 @@
 num = int(input("enter your num :"))
 num_num = 16
 while num != num_num :
-    print("enter your num :")
+    input("enter your num :")

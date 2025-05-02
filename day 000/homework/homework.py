@@ -83,4 +83,4 @@ print (int(input) + str(input) + str(input) float(input))
 # 9) gavaswore wina gakvetilze
 
 
-# 10) sololears gavaketeb
+# 10) 

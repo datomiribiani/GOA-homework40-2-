@@ -5,3 +5,5 @@ if num > num1 :
     print("true")
 elif num < num1:
     print("false")
+else:
+    print("other")

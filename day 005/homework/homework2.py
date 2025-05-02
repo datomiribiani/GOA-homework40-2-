@@ -3,7 +3,10 @@ name = input("enter your num")
 age = int(input("enter your num"))
 my_name = "dato" 
 my_age = 15
-if my_age > 18 and my_name == name and age > 18 : 
-    print("we have same names and we are adults")
-else :
+if age > 18 :
+    if my_name == name:
+        print("we have same names and we are adults")
+    else :
+        print("we dot have same names but we are adults")
+else:
     print("we dont have same names and we are not adults")

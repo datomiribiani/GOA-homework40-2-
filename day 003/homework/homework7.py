@@ -1,4 +1,4 @@
 # 8) მომხმარებელს შემოატანინეთ რიცხვი და 1-დან ამ რიცხვამდე დაპრინტეთ მინუსით (ანუ მომხმარებელი დადებით რიცხვს რომ შემოიყვანს უარყოფითად უნდა გადააქციოთ უბრალოდ)
-num = input("enter your num")
-for i in range(-num):
-    print(i , (-num))
+num = int(input("enter your num"))
+for i in range(1 ,num ):
+    print(-i)

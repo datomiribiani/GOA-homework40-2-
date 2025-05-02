@@ -1,5 +1,8 @@
 # 7) მომხმარებელს შემოატანინე პაროლი. და ჰქონდეს სამი ცდა.
-password = int(input("enter your password"))
-password = 0
-while password == password:
-    print("its great")
+password = input("enter your password")
+my_password = "paroli"
+try_nm = 3
+while password != my_password:
+    while try_nm >0 :
+        try_nm -= 1
+        input("try again")
