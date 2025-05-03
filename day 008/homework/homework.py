@@ -20,11 +20,11 @@ print(list_name[2])
 print(list_name[3])
 # 5)შექმენი სია სადაც მოათავსებ 10 სახელს,შენი დავალებაა გამოიტანო ამ სიაში 2 ინდექსიდან 7 ინდექსამდე ელემენტები გამოიყენე slicing
 list_name = ["dato" , "gio", "lekso" , "tengo" ,"dato" , "gio", "lekso" , "tengo" ,"dato" , "gio"]
-list_name =[2 , 8]
+list_name =[2 : 8]
 print(list_name)
 # 6)შექმენით ცვლადი სადაც შეინახავთ სტრინგს "konstantinopoli",შენი დავალებააა გამოიტანო ამ სტრინგიდან ბოლო 8 ასო,გამოიყენეთ slicing
 list_name2 = ["konstantinopoli"]
-list_name2[8 , 14]
+list_name2[8 : 14]
 print(list_name2)
 
 # 7)შექმენით სია სადაც მოათავსებთ ხილის სახელებს,თქვენი დავალებაა ყველა ხილის სახელი ჩააანაცვლოთ ქვეყნის სახელებით
