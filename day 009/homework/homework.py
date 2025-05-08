@@ -27,33 +27,23 @@ print(name.find("d"))
 # 5)შექმენი სია -->["ირაკლი","ბექა",50,"ატამი",40.50,"თვითმფრინავი"],თქვენი დავალებაა გაიგოთ რომელ ინდექსზე დგას "ატამი" და 50,გამოიყენეთ შესაბამისი ფუნქცია--> მოიყვანე კიდევ ორი იგივენაირი  მაგალით შენით მოიფიქრე 
 list = ["ირაკლი","ბექა",50,"ატამი",40.50,"თვითმფრინავი"] 
 print(list.index("ატამი"))
+print(list.index(50))
 
 # 6)შექმენით სია სადაც გექნებათ მოთავსენული სახელები რომლებიც იქნებიან პატარა ასოებით დაწერილი,თქვენი დავალებაა გადააქციოთ სიაში მყოფი ყველა სახელის პირველი ასო დიდად(არ გამოიყენოთ ინდექსები და მასე არ მიწვდეთ ელემენტებს)
-name_list = ["dato"]
-name_list[0] = "Dato"
-name_list1 = ["dato"]
-name_list1[0] = "Dato"
-name_list2 = ["dato"]
-name_list2[0] = "Dato" 
-print(name_list)
+name_list = ["dato" , "gio" , "tengo" , "vaja" , "lekso"]
+for i in name_list:
+    print(i.capitalize())
+
 
 
 
 # 7)შექმენით სია სადაც გექნებათ მოთავსენული ქვეყნის სახელები რომლებიც იქნებიან პატარა ასოებით დაწერილი,თქვენი დავალებაა გადააქციოთ სიაში მყოფი ყველა სახელის ყველა ასო დიდად(არ გამოიყენოთ ინდექსები და მასე არ მიწვდეთ ელემენტებს)
-name_list = ["saqartvelo"]
-name_list[0] = "Saqartvelo"
-name_list1 = ["saqartvelo"]
-name_list1[0] = "Saqartvelo"
-name_list2 = ["saqartvelo"]
-name_list2[0] = "Saqartvelo" 
-print(name_list)
+name_list = ["saqartvelo" , "somxeti" , "azeirbaijani"]
+for i  in name_list:
+    print(i.upper())
 
 
 # 8)შექმენით სია სადაც გექნებათ მოთავსენული ქვეყნის სახელები რომლებიც იქნებიან დიდი ასოებით დაწერილი,თქვენი დავალებაა გადააქციოთ სიაში მყოფი ყველა სახელის ყველა ასო პატარა ასოებად(არ გამოიყენოთ ინდექსები და მასე არ მიწვდეთ ელემენტებს)
-name_list = ["SAKARTVELO"]
-name_list[0] = "saqartvelo"
-name_list1 = ["SAKARTVELO"]
-name_list1[0] = "saqartvelo"
-name_list2 = ["SAKARTVELO"]
-name_list2[0] = "saqartvelo" 
-print(name_list)
+name_list = ["SAKARTVELO" "SOMXETI" "BULGARETI" ]
+for i in name_list:
+    print(i.lower())
