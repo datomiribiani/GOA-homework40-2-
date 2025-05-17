@@ -34,7 +34,7 @@ print(sum[1,23,24,2,4,34,23,2,2,54,67,87,878,432,4])
 
 # 3) შექმენით ფუნქცია რომელსაც გადაეცემა არგუმენტად რიცხვი შემდეგ კი მან უნდა დაგვიბრუნოს ლუწია ეს რიცხვი თუ კენტი
 def sum(number):
-    if number 2 % == 0 : 
+    if number % 2  == 0 : 
         print("LUWI")
     else :
         print("kenti")
@@ -50,8 +50,7 @@ print(sum(12))
 print(sum(-9))
 # 5) შექმენით ფუნქცია რომელსაც არგუმენტად გადაეცემა რიცხვი შემდეგ კი ფუნქციამ უნდა დაგვიბრუნოს მისი საპირისპირო რიცხვი 
 def uaryofa(number):
-    while number == -number :
-        print("try again")
+    return number * -1
 print(uaryofa(12))        
 
 
