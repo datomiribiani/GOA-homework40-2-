@@ -32,12 +32,24 @@ def list1(user_list):
 print(list1[1,2,3,4,5,6,7,8,9,10])
 
 # Bonus: შექმენით ფუნქცია, სადაც მომხმარებელი ითამაშებს ჯეირანს მანამ სანამ სამჯერ არ წააგებს. 
+player1 = input("plauer1 :")
+player2 = input("plauer2 :")
+def play_game(first,second):
+    player1_score = 0
+    player2_score = 0
+    while player1_score < 3 and player2_score < 3:
+        player1_choice = input(first, "qva , makrateli , qagaldi:")
+        player2_choice = input(second, "qva , makrateli , qagaldi:")
+        
+        if player1_choice == player2_choice:
+            print("fre")
+        elif (player1_choice == "qva" and player2_choice == "makrateli") or (player1_choice == "makrateli" and player2_choice == "qagaldi")or (player1_choice == "qagaldi" and player2_choice == "qva"):
+            print(first, "igebs") 
+            player1_score += 1
+        else:
+            print(second , "igebs")
+            player2_score +=1 
 
-user = input(" qva or furceli or makrateli: ")
-comp = "qva" ,"makrateli " ,"furceli"
-if user == "qva" and comp == "furceli":
-elif user == "makrateli" and comp == "qva" :
-else :
-    print("game over")
+        print("score - " + first + ":" + player1_score + ":"+ player2_score )
 
-
+print(play_game(player1,player2))
