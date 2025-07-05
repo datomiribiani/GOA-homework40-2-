@@ -1,5 +1,6 @@
 #1 შექმენით სია რომელიც სავსე იქნება სტრინგებით და დაასორტირეთ ეს სია ანბანის მიხედვით.
-
+list1 = ['dgusgdygfdsw' , "fgsdwljdiyrfn" , "abdgfefsgvfrgre" , "bfdfgfs"]
+print(sorted(list1 , reverse=False))
 #2 შექმენით სია რომელიც სავსე იქნება რიცხვებით და დაასორტირეთ ეს სია ნიშნების რაოდენობის მიხედვით. (ჯერ ორნიშნა, მერე ერთნიშნა კლებადობით)
 list2 = [1,2,3,45,65,6,4,43,56,76,5,3,4,5,76,6,5,5,43,45,76,6,4,14]
 print(sorted(list2, reverse=True ))
@@ -21,7 +22,7 @@ print(list0)
 def filt(user_str):
     le1 = []
     for i in user_str:
-        if i is "aeiou":
+        if i not in "aeiou":
             le1.append(i)      
     return le1
 print(filt(input("enter str:")))
