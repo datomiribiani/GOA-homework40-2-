@@ -1,0 +1,35 @@
+.id1{
+    color: red;
+    font-size: 25px;
+    border: 2px solid yellow;
+    background-color: blue;
+}
+
+.id2{
+    color: purple;
+    font-size: 40px;
+    border: 3px solid green;
+    background-color: greenyellow;
+}.id3{
+    color: goldenrod;
+    font-size: 20px;
+    border: 1px solid rgb(128, 0, 94);
+    background-color: rgb(47, 255, 71);
+}
+
+
+.id4{
+    color: rgb(0, 70, 128);
+    font-size: 40px;
+    border: 3px solid rgb(105, 0, 128);
+    background-color: rgb(255, 217, 47);
+}
+
+.id5{
+    color: rgb(23, 228, 146);
+    font-size: 40px;
+    border: 3px solid rgb(61, 192, 61);
+    background-color: rgb(30, 136, 110);
+}
+
+
