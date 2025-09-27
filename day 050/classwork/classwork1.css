@@ -1,0 +1,7 @@
+div p b{
+    color: green;
+    background-color: red;
+    font-size: medium;
+    text-align: center;
+    border: 2px solid blue;
+}

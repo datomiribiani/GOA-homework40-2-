@@ -1,0 +1,41 @@
+h1{
+    color: red;
+    text-align: center;
+    background-color: rgb(242, 9, 102);
+    font-size: large;
+}
+.id{
+    color: black;
+    font-size: small;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+
+p{
+    color: rgb(0, 255, 26);
+    text-align: center;
+    background-color: rgb(5, 40, 5);
+    font-size: large;
+}
+.id1{
+    color: rgb(196, 125, 125);
+    font-size: small;
+    background-color: rgb(7, 7, 60);
+    border: 2px solid rgba(32, 195, 144, 0.466);
+}
+
+button{
+    color: rgba(255, 0, 0, 0.357);
+    text-align: center;
+    background-color: rgb(12, 126, 168);
+    font-size: large;
+}
+.id2{
+    color: rgb(81, 10, 222);
+    font-size: small;
+    background-color: rgb(8, 8, 55);
+    border: 2px solid rgb(200, 5, 190);
+}
+
+

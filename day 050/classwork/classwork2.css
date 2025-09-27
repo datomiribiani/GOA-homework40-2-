@@ -1,0 +1,30 @@
+div h1 b{
+    color: blue;
+    background-color: red;
+    font-size: large;
+}
+
+div h1 i{
+    color: rgb(183, 255, 0);
+    background-color: rgb(0, 255, 64);
+    font-size: small;
+}
+
+div h1 u{
+    color: rgb(0, 255, 128);
+    background-color: rgb(255, 0, 204);
+    font-size: medium;
+}
+
+div h1 em{
+    color: rgb(0, 255, 4);
+    background-color: rgb(0, 17, 255);
+    font-size: large;
+}
+
+
+div h1 strong{
+    color: rgb(0, 255, 200);
+    background-color: rgb(85, 0, 255);
+    font-size: large;
+}
