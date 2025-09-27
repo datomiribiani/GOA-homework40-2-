@@ -1,0 +1,22 @@
+main h1{
+    color: red;
+    box-shadow: 2px black;
+    background-color: blanchedalmond;
+    border: 1px solid blue;
+}
+
+main img{
+    width: 200px;
+    height: 200px;
+}
+
+main p{
+    color: green;
+    background-color: greenyellow;
+    border: 2px solid black;
+}
+
+main button{
+    border-radius: 50px;
+    box-shadow: 2px black;
+}
