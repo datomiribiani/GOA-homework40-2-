@@ -1,0 +1,38 @@
+#p{
+    color: green;
+    background-color: red;
+    border: 1px solid black;
+    text-align: center;
+    font-size: large;
+    box-shadow: 2px sienna;
+}
+
+#p4{
+    color: brown;
+    background-color: darkblue;
+    border: 2px solid green;
+    text-align: end;
+    font-size: medium;
+    box-shadow: 3px brown;
+}
+
+#p3{
+    color: greenyellow;
+    background-color: aqua;
+    text-align: start;
+}
+
+
+#p2{
+    color: blueviolet;
+    background-color: chocolate;
+    text-align: start;
+    text-shadow: 2px black;
+}
+
+#p1{
+    color: green;
+    background-color: coral;
+    text-align: center;
+    font-size: small;
+}

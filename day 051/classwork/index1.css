@@ -1,0 +1,38 @@
+.ert{
+    color: red;
+    text-align: center;
+    font-size: large;
+    background-color: greenyellow;
+    box-shadow: 2px black;
+    border: 2px solid grey;
+}
+
+.erti1{
+    color: green;
+    background-color: red;
+    text-align: end;
+    font-size: small;
+    box-shadow: 3px black;
+    border: 3px solid gold;
+}
+
+
+.erti{
+    color: rgb(255, 78, 143);
+    background-color: red;
+    text-align: end;
+    font-size: small;
+    box-shadow: 3px rgb(73, 255, 17);
+    border: 3px solid rgb(0, 94, 255);
+}
+
+
+.erti2{
+    color: rgb(0, 13, 128);
+    background-color: rgb(174, 255, 0);
+    text-align: end;
+    font-size: small;
+    box-shadow: 3px black;
+    border: 3px solid rgb(255, 0, 221);
+}
+
