@@ -1,0 +1,12 @@
+.main-title{
+    color: green;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.sub-title{
+    color: red;
+    background-color: green;
+    text-align: end;
+    border: 2px solid black;
+}
