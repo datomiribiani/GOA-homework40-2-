@@ -1,3 +1,10 @@
 .card{
+    background-color: green;
+    color: blue;
+    text-align: center;
+}
+
+#premium{
     border: 2px solid gold;
+    color: red;
 }

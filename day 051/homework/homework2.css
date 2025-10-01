@@ -1,0 +1,9 @@
+.gallery-item{
+    border: 2px solid gold;
+    border-radius: 20px;
+}
+
+#highlight{
+    border: 2px solid black;
+    font-size: larger;
+}
