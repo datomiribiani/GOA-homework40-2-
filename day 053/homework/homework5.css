@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    border-radius: 50%;
+    color: coral;
+}
+
+.div2{
+    color: blue;
+    border-radius: 20px;
+}
+
+.div3{
+    color: red;
+    border-radius: 0%;
+}
