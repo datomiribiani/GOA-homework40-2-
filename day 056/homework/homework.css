@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin :0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+.parent{
+    display: flex;
+    align-items: flex-start;
+}
+
+.child1{
+    color: brown;
+}
+
+.child2{
+    color:aquamarine
+}
+.child3{
+    color: rgb(189, 138, 44);
+}
