@@ -3,9 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.parrent{
+body{
     background-color: purple;
+}
+.parrent{
     display: flex;
     flex-direction: column;
 }
