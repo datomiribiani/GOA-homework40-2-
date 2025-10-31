@@ -1,0 +1,9 @@
+p{
+    color: red;
+    text-shadow: 4px 2px ;
+
+}
+P:active{
+    color: purple;
+    text-shadow: -3px -3px ;
+}

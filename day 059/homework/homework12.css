@@ -1,0 +1,9 @@
+button{
+    color: red;
+}
+
+button:active{
+    color: green;
+    border: 2px solid yellow;
+    border-radius: 25px;
+}

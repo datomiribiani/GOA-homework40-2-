@@ -1,0 +1,9 @@
+p{
+    color: green;
+}
+
+
+p:hover{
+    text-decoration: underline overline dotted red;
+    font-weight: 800;
+}
