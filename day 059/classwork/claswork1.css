@@ -1,0 +1,29 @@
+/* .ww{
+    text-transform: capitalize;
+}
+
+.dd{
+    text-transform: lowercase;
+}
+
+.gg{
+    text-transform: uppercase;
+} */
+
+
+/* .a{
+    text-shadow: 3px 2px 3px blue;
+}
+
+.b{
+    text-shadow: 6px 2px 7px rgb(255, 0, 0);
+}
+
+.g{
+    text-shadow: 8px 1px 5px rgb(0, 255, 17);
+} */
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.first{
+     font-family: "Amaranth", sans-serif;
+}
