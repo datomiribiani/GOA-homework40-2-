@@ -1,11 +1,16 @@
+
 h1{
-    text-shadow: 3px 3px 2px blue;
+    text-shadow: 3px 3px 1px blue;
+    color: pink;
+    font-family: sans-serif;
 }
 
 h2{
-    text-shadow: 3px 3px 3px green;
+    text-shadow: 3px 3px 1px green;
 }
 
 h3{
-    text-shadow: 5px 5px 6px blue;
+    text-shadow: 2px 2px 1px rgb(93, 93, 244);
+    font-family: sans-serif;
+    color: purple;
 }

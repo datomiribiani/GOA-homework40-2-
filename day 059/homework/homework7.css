@@ -1,11 +1,14 @@
 .h1{
     text-transform: lowercase;
+    text-decoration: underline wavy green;
 }
 
 .h2{
     text-transform:uppercase ;
+    text-decoration: overline dotted blue;
 }
 
 .h3{
     text-transform: capitalize;
+    text-decoration: overline underline  double blue;
 }
