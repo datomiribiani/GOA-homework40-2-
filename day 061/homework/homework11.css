@@ -1,0 +1,32 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th:nth-child(1){
+    background-color: yellow;
+}
+
+th:nth-child(2){
+    background-color: orange;
+}
+
+th:nth-child(3){
+    background-color: rgb(10, 207, 63);
+}
+
+td:nth-child(1){
+    background-color: rgb(167, 119, 31);
+}
+td:nth-child(3){
+    background-color: red;
+}
+
+td:nth-child(2){
+    background-color: pink;
+}
+
+td:nth-child(3){
+    background-color: rgb(113, 80, 18);
+}
+

@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+tr:nth-child(1){
+    background-color: rgb(30, 30, 30);
+}
+
+tr:nth-child(2){
+    background-color: blue;
+}
+
+tr:nth-child(3){
+    background-color: green;
+}
+
+tr:nth-child(4){
+    background-color: yellow;
+}
+
+tr:nth-child(5){
+    background-color: red;
+}
+
+tr:nth-child(6){
+    background-color: rgb(87, 87, 255);
+}

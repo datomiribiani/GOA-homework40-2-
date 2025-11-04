@@ -1,0 +1,7 @@
+.a:hover{
+    font-size: larger;
+}
+
+.a:active{
+    font-size: smaller;
+}

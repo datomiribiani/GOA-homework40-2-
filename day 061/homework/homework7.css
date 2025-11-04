@@ -1,0 +1,6 @@
+a{
+    text-decoration: overline underline line-through dashed red;
+}
+a:hover{
+    text-decoration: none;
+}

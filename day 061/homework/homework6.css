@@ -1,0 +1,8 @@
+a:hover{
+    font-weight: bold;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,10 @@
+.menu:hover{
+    background-color: green;
+    text-decoration: none;
+}
+
+.menu:active{
+    color: orange;
+    text-decoration: underline purple dotted;
+}
+
