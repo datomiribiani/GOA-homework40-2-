@@ -1,4 +1,5 @@
-a:hover{
+a:visited{
+    color: blue;
     font-weight: bold;
 }
 

@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Padauk:wght@400;700&display=swap');
 
-.b:link{
+a:link{
     color: green;
     font-weight: 800;
-    text-decoration: dashed overline;
+    text-decoration: dashed overline red;
 }
-.b:visited{
+a:visited{
     color: orange;
     font-weight: 500;
     font-family:  "Padauk", sans-serif;

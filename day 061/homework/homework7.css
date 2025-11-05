@@ -1,6 +1,6 @@
-a{
+a:link{
     text-decoration: overline underline line-through dashed red;
 }
-a:hover{
+a:visited{
     text-decoration: none;
 }
