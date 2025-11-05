@@ -1,0 +1,14 @@
+.h1 {
+    list-style-type: disc;
+}
+.h2{
+    list-style-type: square;
+}
+
+.h3{
+    list-style-type: circle;
+}
+
+.h4{
+    list-style-type: none;
+}
