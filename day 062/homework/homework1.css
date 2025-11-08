@@ -1,0 +1,15 @@
+.dd{
+    list-style-type:disc ;
+}
+
+.gg{
+    list-style-type: circle;
+}
+
+.ww{
+    list-style-type: none;
+}
+
+.ff{
+    list-style-type: square;
+}

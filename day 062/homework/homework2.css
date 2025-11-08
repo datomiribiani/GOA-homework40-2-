@@ -1,0 +1,25 @@
+.dd{
+    list-style-type: decimal-leading-zero;
+}
+
+.da{
+    list-style-type:decimal ;
+
+}
+
+.to{
+    list-style-type: georgian;
+}
+
+.go{
+    list-style-type: upper-alpha;
+}
+
+.ga{
+    list-style-type: armenian;
+}
+
+.fg{
+    list-style-type: lower-latin;
+}
+
