@@ -1,13 +1,12 @@
 ol{
-    list-style-image: url("day 062/homework/chek.png");
+    list-style-image: url("close.png");
 }
 
 
 ul{
-    list-style-image: url("day 062/homework/close.png");
+    list-style-image: url("chek.png");
 }
 
 .ul{
     list-style-type: square ; 
-    background-color: green;
 }
