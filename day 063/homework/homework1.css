@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(104, 244, 104) ;
+    height: 100vh;
+}
+
+
+input{
+    border-radius: 25px;
+    text-align: center;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
