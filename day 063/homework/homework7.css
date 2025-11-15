@@ -1,4 +1,6 @@
 div{
-    color:blue;
+    background-color:blue;
     margin: 100px;
+    width: 100px;
+    height: 100px;
 }

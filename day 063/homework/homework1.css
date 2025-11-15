@@ -7,7 +7,11 @@
 body{
     background-color:rgb(104, 244, 104) ;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 
 input{
@@ -18,4 +22,5 @@ input{
     justify-content: center;
     align-items: center;
     font-size: 15px;
+    background-color:rgb(104, 244, 104) ; 
 }
