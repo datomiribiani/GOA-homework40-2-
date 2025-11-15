@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(216, 15%, 48%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 2px solid white;
+    background-color: white;
+    height: 500px ;
+    width: 320px;
+    border-radius: 25px;
+}
+
+div img{
+    width: 300px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div h2{
+    margin-top: 10px;
+}
