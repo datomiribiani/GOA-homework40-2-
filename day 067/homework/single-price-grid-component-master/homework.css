@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.parrent{
+    font-family: "Karla", sans-serif;
+}
+
+.child1 h1{
+    color:hsl(179, 62%, 43%) ;
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 35px;
+    margin-bottom: 25px;
+    
+}
+
+.child1 h2{
+    color:hsl(71, 73%, 54%) ;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.child1 p{
+    opacity: 60%;
+    margin-top: 15px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.child1{
+    border: 2 px solid white;
+    width: 800px;
+    height: 250px;
+    background-color:white ;
+}
+
+
+.child2{
+
+    width: 900px;
+    height: 600px;
+    background-color: hsl(179, 62%, 43%) ;
+}
+
+.child2 h3{
+    color: white;
+    padding-top: 25px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.child2 h1 {
+    color: white;
+    margin-left: 25px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.p1{
+    margin-left: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    color: white;
+} 
+
+
+.child2 button{
+    background-color: hsl(71, 73%, 54%) ;
+    border-radius: 10px;
+    font-size: 30px;
+    width: 240px;
+    height: 50px;
+    color: white;
+    border: none;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
