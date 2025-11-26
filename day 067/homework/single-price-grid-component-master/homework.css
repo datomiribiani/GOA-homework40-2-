@@ -52,8 +52,8 @@ body{
 
 .child2{
 
-    width: 900px;
-    height: 600px;
+    width: 500px;
+    height: 400px;
     background-color: hsl(179, 62%, 43%) ;
 }
 
@@ -93,3 +93,22 @@ body{
     margin-top: 20px;
     margin-bottom: 30px;
 }
+
+.child2parrent{
+    display: flex;
+    background-color: hsl(179, 90%, 62%) ;
+   
+}
+
+.div{
+    margin-top: 25px;
+    margin-left: 15px;
+    color: white;
+}
+
+.div p{
+    font-size: 20px;
+    margin-top: 15px ;
+    
+}
+

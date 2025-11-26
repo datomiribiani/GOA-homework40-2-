@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3E5D8;
+}
+
+
+.parrent{
+    
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: start;
+    width: min-content;
+    padding: 30px;
+
+}
+
+
+
+.child1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Young Serif", serif;
+    gap: 15px;
+}
+
+img{
+    height: 300px;
+    border-radius: 15px;
+}
+.child1 h1{
+    opacity: 80%;
+    
+}
+
+.child1 p{
+    color: rgb(130, 129, 129);
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
+}
+
+.child2{
+    background-color: #FFF7FC;
+    list-style-position: inside;
+    padding: 25px; 
+    font-family: "Outfit", sans-serif;
+}
+
+.child2 h2{
+    color: hsl(332, 51%, 32%);
+}
+.child2 li::marker{
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+span{
+    font-weight: 800 ;
+    color: black;
+}
+
+
+.child3{
+    list-style-position: inside;
+    font-family: "Outfit", sans-serif;   
+    border-bottom: 1px solid rgb(192, 192, 192);   
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+li::marker{
+    color:hsl(14, 45%, 36%) ;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+
+}
+li{
+    color: hsl(30, 10%, 34%);
+    opacity: 80%;
+}
+
+.child3 h2{
+    color:hsl(14, 45%, 36%) ;
+    
+}
+.child4{
+    padding: 20px;
+    line-height: 35px;
+    font-size: 20px;
+    
+}
+.child4 h1{
+    color:   hsl(14, 45%, 36%);   
+    font-family: "Outfit", sans-serif;  
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+
+span{
+    color: black;
+    font-weight: 800;
+}    
+
+.child4 li{
+    list-style-type: decimal-leading;
+    font-family: "Outfit", sans-serif ;
+}
+.child5{
+    padding: 25px;
+    width: 100%;   
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.child5 h1{
+    color: hsl(14, 45%, 36%);
+    font-family:"Outfit", sans-serif  ;
+    
+}
+
+th{
+    color: grey;
+    font-size: 20px;
+    font-family:"Outfit", sans-serif  ;   
+    
+}
+
+table{
+    font-size: 30px;
+    border-collapse: collapse;
+    border-bottom: 2px;
+    width: 100%;
+    border: none;
+}
+
+.child5 th:nth-child(2){
+    color:hsl(14, 45%, 36%) ;
+}
+
+
+
