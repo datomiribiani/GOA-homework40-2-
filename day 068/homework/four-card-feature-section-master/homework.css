@@ -11,8 +11,17 @@ body{
     align-items: center;
 }
 
+.child0{
+    line-height: 35px;
+}
 .h1{
+    color: grey;
     font-size: 30px;
+    opacity: 80%;
+}
+
+.h11{
+    font-size: 35px;
 }
 
 
