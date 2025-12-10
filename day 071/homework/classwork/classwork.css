@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child0{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.grey{
+    margin-top: 25px;
+    margin-left: 35px;
+}
+.grey h1{
+    color: hsl(300, 43%, 22%);
+}
+.grey p{
+    opacity: 90%;
+    color: grey;
+    margin-top: 15px;
+    line-height: 20px;
+}
+
+.orange{
+    margin-top: 65px;
+    margin-left: 275px;
+}
+
+
+.mwvane{
+    margin-top: 35px;
+}
+
+.lurji{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.pirveli{
+    display:flex ;
+    flex-direction: row;
+    
+}
+
+.pirveli img{
+    width: 50px;
+    border-radius: 50px;
+    
+}
+
+.pirveli h1{
+    font-size: 17px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.pirvelipar{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.lurji2{
+    background-color: hsl(300, 43%, 22%);
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.meore{
+    display:flex ;
+    flex-direction: row;   
+}
+
+.meore img{
+    width: 50px;
+    border-radius: 50px;
+
+}
+
+.meore h1{
+    font-size: 17px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;   
+}
+
+.meorepar{
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+.mesame{
+    display:flex ;
+    flex-direction: row;   
+}
+
+.mesame img{
+    width: 50px;
+    border-radius: 50px;
+
+}
+
+.mesame h1{
+    font-size: 17px;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;   
+}
+
+.mesamepar{
+    margin-top: 15px;
+    margin-bottom: 15px;   
+}
+
+
+
+
+
