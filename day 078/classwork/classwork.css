@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.par{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    border: 2px solid red;
+    height: 100vh;
+}
+
+
+
+.div1{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.same{
+    position: relative;
+    top: 230px;
+    left: 250px;
+}
