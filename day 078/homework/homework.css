@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    background-image: url("images.jpg");    
+}
+
+input{
+    border-radius: 25px;
+}
