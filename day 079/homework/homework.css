@@ -1,0 +1,17 @@
+.p{
+    width: 200px;
+    height: 200px;
+}
+
+.child1{
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+
+.child2{
+    position: relative;
+    left: 50px;
+    top: 60px;
+}
+

@@ -1,0 +1,59 @@
+/* .cc{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom:150px;
+    right: 200px;
+}
+ */
+
+/* .pp{
+    border: 2px solid red;
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+.ww{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 400px ;
+    left: 400px;
+} */
+
+
+
+.par{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    position: relative;
+}
+.child1{
+    width: 100px;
+    height: 100px;
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+}
+
+.child3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+}
+
+.child4{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 400px;
+    right: 0;
+}
