@@ -1,0 +1,10 @@
+.sq{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+}
+
+body{
+    height: 10000px;
+}
