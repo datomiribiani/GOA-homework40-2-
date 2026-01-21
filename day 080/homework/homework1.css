@@ -3,6 +3,7 @@
     height: 200px;
     background-color: red;
     position: fixed;
+    top: 50%;
 }
 
 body{
