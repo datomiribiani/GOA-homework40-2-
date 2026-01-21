@@ -1,0 +1,12 @@
+header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(231, 219, 219);
+    width: 100%;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+
