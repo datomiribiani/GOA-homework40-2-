@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    background-color: rgb(20, 238, 38);
+    width: 100%;
+    gap: 45px;
+    justify-content: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
