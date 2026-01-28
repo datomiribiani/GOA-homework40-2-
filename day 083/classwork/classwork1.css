@@ -1,0 +1,26 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-image:url("image.png");
+}
+
+.one1{
+    
+    background-repeat: repeat;
+}
+
+.one2{
+    
+    background-repeat: no-repeat;
+}
+
+
+.one3{
+    
+    background-repeat: repeat-x;
+}
+
+.one4{
+    
+    background-repeat: repeat-y;
+}
