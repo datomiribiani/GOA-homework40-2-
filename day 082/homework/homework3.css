@@ -1,0 +1,45 @@
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #fff;
+    }
+
+    .container {
+      position: relative;
+      width: 600px;
+      height: 300px;
+    }
+
+    .box {
+      position: absolute;
+    }
+
+    .green {
+      width: 260px;
+      height: 200px;
+      background-color: green;
+      top: 80px;
+      left: 0;
+      z-index: 1;
+    }
+
+    .blue {
+      width: 400px;
+      height: 120px;
+      background-color: blue;
+      top: 0;
+      left: 60px;
+      z-index: 2;
+    }
+
+    .red {
+      width: 360px;
+      height: 160px;
+      background-color: red;
+      top: 70px;
+      left: 180px;
+      z-index: 3;
+    }
