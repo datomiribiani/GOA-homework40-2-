@@ -1,0 +1,8 @@
+div{
+    width: 600px;
+    height: 200px;
+    background-image: url("image.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+

@@ -1,0 +1,14 @@
+div{
+    width: 600px;
+    height: 600px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+}
+
+.div1{
+    background-size: cover;
+}
+
+.div2{
+    background-size: contain;
+}
