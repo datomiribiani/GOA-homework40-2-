@@ -1,0 +1,16 @@
+div{
+    width: 300px;
+    height: 300px;
+}
+
+.div1{
+    transform: scaleX(2);
+}
+
+.div2{
+    transform: scaleY(2);
+}
+
+.div3{
+    transform: scale(4);
+}
