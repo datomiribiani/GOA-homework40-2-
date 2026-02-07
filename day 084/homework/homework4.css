@@ -2,6 +2,6 @@ div{
     width: 700px;
     height: 700px;
     background-image: url("image.png");
-    background-size: cover;
+    background-size: contain;
 }
 
