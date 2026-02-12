@@ -1,0 +1,15 @@
+div{
+    width: 150px;
+    height: 150px;
+    transform-origin: center;
+    transform: rotate(45deg);
+}
+
+div{
+    transform-origin: left top;
+}
+
+
+div{
+    transform-origin: right bottom;
+}

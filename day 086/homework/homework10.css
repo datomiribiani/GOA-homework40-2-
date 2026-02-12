@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+div:hover{
+    transform: translate(30px);
+}
+
+
+div:hover{
+    transform: scale(3);
+}
