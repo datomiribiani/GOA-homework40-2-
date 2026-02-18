@@ -1,0 +1,14 @@
+div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+
+
+div:hover{
+    width: 150px;
+    height: 150px;
+    transition: width 3s, height 3s, color 5s;
+    color: blue;
+}

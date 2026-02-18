@@ -1,0 +1,32 @@
+div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    gap:20px;
+}
+
+.div{
+    background-color: green;
+}
+
+.duv{
+    background-color: red;
+}
+
+.dav{
+    background-color: blue;
+}
+
+.div:hover{
+    transform: rotate(90deg);
+}
+
+.duv:hover{
+    transform: rotate(90deg);
+    transition-delay: 0,5s;
+}
+
+.dav:hover{
+    transform: rotate(90deg);
+    transition-delay: 1s;
+}

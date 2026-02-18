@@ -1,0 +1,13 @@
+div{
+    width: 300px;
+    width: 250px;
+    background-color: red;
+}
+
+
+div:hover{
+    border-radius: 25px;
+    background-color: green;
+    transform: scale(3);
+    transition-duration: 5s;
+}

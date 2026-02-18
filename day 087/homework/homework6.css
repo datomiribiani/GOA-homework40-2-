@@ -1,0 +1,9 @@
+div{
+    border: 3px solid red;
+    background-color: red;
+}
+
+
+div:hover{
+    border-color: green;
+}

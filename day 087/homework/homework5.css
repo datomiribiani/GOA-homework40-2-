@@ -1,0 +1,14 @@
+div{
+    width: 500px;
+    height: 100px;
+    background-color: red;
+}
+
+
+div:hover{
+    transform: scale(3);
+    transform: rotate(50deg);
+    transition: 3s;
+}
+
+

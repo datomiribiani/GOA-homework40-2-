@@ -1,0 +1,23 @@
+div{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+.div1:hover{
+    transition: ease;
+}
+
+
+.div2:hover{
+    transition: linear;
+}
+
+.div3:hover{
+    transition: ease-in;
+}
+
+
+.div4:hover{
+    transition: ease-out;
+}
