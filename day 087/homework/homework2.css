@@ -2,12 +2,13 @@ button{
     width: 300px;
     height: 200px;
     background-color: green;
+    transition: 4s;
 }
 
 
 button:hover{
     background-color: red;
     color: red;
-    transition: 4s;
+    
 }
 

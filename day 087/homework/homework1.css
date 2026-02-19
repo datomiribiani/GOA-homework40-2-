@@ -2,11 +2,11 @@ div{
     background-color: red;
     width: 500px;
     height: 500px;
+    transition: 1s;
 }
 
 
 div:hover{
     background-color: blue;
     width: 200px;
-    transition: 1s;
 }

@@ -1,23 +1,29 @@
 div{
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
     background-color: red;
+    transition: 4s ;
+    margin: 20px;
 }
 
 .div1:hover{
-    transition: ease;
+    transition-timing-function: ease;
+    transform: translateX(80px);
 }
 
 
 .div2:hover{
-    transition: linear;
+    transition-timing-function: linear;
+    transform: translateX(80px);
 }
 
 .div3:hover{
-    transition: ease-in;
+    transition-timing-function: ease-in;
+    transform: translateX(80px);
 }
 
 
 .div4:hover{
-    transition: ease-out;
+    transition-timing-function: ease-out;
+    transform: translateX(80px);
 }

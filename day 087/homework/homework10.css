@@ -1,8 +1,7 @@
 div{
     width: 300px;
     height: 300px;
-    display: flex;
-    gap:20px;
+    transition: 0.5s;
 }
 
 .div{
@@ -23,7 +22,7 @@ div{
 
 .duv:hover{
     transform: rotate(90deg);
-    transition-delay: 0,5s;
+    transition-delay: 0.5s;
 }
 
 .dav:hover{
