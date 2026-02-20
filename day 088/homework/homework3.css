@@ -1,0 +1,12 @@
+div{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    transform: translateX(20px);
+    transition: transform 3s , bakground-color 5s;
+}
+
+div:hover{
+    transform: translateX(-20px);
+    background-color: red;
+}

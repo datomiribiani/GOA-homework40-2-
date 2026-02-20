@@ -1,0 +1,17 @@
+button{
+    width: 330px;
+    height: 200px;
+    background-color: green;
+    transition: 2s;
+}
+
+
+button:hover{
+    transform: rotate(5deg);
+    color: red;
+}
+
+button:active{
+    width: 200px;
+    height: 100px;
+}
