@@ -1,7 +1,9 @@
 div{
-    width: 200px;
+    width: 400px;
     height: 200px;
     border: 2px solid red;
+    transition: background-image 5s;
+
 }
 
 div:hover{

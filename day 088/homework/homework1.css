@@ -1,12 +1,10 @@
 div{
-    width: 100px;
-    height: 100px;
-    transition: 1s;
+    transition:  1s;
+    box-shadow: 0px 0px 5px black;
 }
 
 
 div:hover{
     transform: scale(1.1);
-    box-shadow: 0px 0px 2px black;
     background-color: rgb(193, 86, 86);
 }
