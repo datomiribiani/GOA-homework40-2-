@@ -1,0 +1,21 @@
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: ibrunos;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ibrunos{
+    from{
+
+    }
+
+    to{
+        transform: rotate(1000000deg);
+        
+    }
+
+}
