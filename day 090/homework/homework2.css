@@ -1,0 +1,20 @@
+button{
+    background-color: red;
+    font-size: 17px;
+    width: 300px;
+    height: 250px;
+    animation-name: button;
+    animation-iteration-count: 3;
+    transform: translateX(-200px);
+}
+
+
+@keyframes button{
+    from{
+        transform: translateX(-200px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+

@@ -1,0 +1,18 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: blue;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes blue{
+    from{
+
+    }
+    to{
+        background-color: blue;
+    }
+}

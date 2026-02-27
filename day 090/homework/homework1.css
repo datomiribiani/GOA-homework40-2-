@@ -1,0 +1,22 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: diving;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+
+
+
+@keyframes diving{
+    from{
+
+    }
+
+    to{
+        opacity: 2;
+    }
+}
