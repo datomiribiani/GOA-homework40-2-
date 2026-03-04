@@ -3,10 +3,11 @@ div{
     height: 120px;
     border-radius:50%;
     animation-name: name;
-    animation-duration: 0.5;
+    animation-duration: 0.5s;
     animation-iteration-count: infinite;
     display: flex;
     flex-direction: row;
+    background-color: red;
     transform: translateY(0);
 }
 

@@ -6,6 +6,7 @@ button{
     animation-name: button;
     animation-iteration-count: 3;
     transform: translateX(-200px);
+    animation-duration: 2s;
 }
 
 

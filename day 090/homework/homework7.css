@@ -1,11 +1,15 @@
-div{
-    width: 200px;
-    height: 200px;
+body{
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
     animation-name: name;
     transform: translateX(0px);
+    animation-duration: 3s;
 }
 
 @keyframes name{

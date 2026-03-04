@@ -3,7 +3,6 @@ div{
     height: 300px;
     background-color: red;
     transform: scale(0.5);
-    transform: rotate(0deg);
     animation-duration: 1.5s;
     animation-name: name;
     animation-iteration-count: 5;
@@ -12,10 +11,9 @@ div{
 
 @keyframes name{
     from{
-
+        transform: rotate(0deg);
     }
     to{
-        transform: rotate(360deg);
-        transform: scale(1.2);
+        transform: scale(1.2) rotate(360deg);
     }
 }
