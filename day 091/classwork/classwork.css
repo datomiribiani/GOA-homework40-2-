@@ -1,0 +1,26 @@
+div{
+    height: 300px ;
+    width: 300px;
+    background-color: yellow;
+    animation-name: div;
+    animation-delay: 5s;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+
+@keyframes div{
+    from{
+        background-color: yellow;
+        border-radius: 5px;
+        
+    }
+    to{
+        transform: translate(200px, -300px);
+        background-color: purple;
+        border: 6px solid green;
+    }
+
+}
+
