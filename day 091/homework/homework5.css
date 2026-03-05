@@ -1,0 +1,17 @@
+div{
+    background-color: #ff0000;
+    width: 300px;
+    height: 300px;
+    animation-name: div;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes div{
+    from{
+        opacity: 100%;
+    }
+    to{
+        opacity: 40%;
+    }
+}

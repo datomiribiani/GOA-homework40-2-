@@ -1,0 +1,15 @@
+p{
+    animation-name: name;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    opacity: 100%;
+    animation-fill-mode: both;
+}
+
+@keyframes name{
+    from{}
+    to{
+        opacity: 50%;
+    }
+}
+

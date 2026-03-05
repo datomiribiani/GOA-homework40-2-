@@ -1,0 +1,17 @@
+button{
+    transform: translateY(400px);
+    animation-name: button;
+    animation-duration: 2s; 
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes button{
+    from{}
+    to{
+        transform: translateY(-400px);
+        animation-duration: 1.5s;
+    }
+
+}
