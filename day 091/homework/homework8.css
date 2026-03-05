@@ -1,9 +1,10 @@
 p{
     animation-name: name;
     animation-iteration-count: infinite;
-    animation-duration: 15s;
+    animation-duration: 2s;
     opacity: 100%;
-    animation-fill-mode: both;
+    color: red;
+    animation-direction: alternate;
 }
 
 @keyframes name{

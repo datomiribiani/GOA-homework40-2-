@@ -3,9 +3,8 @@ p{
     animation-iteration-count: infinite;
     animation-duration: 2s;
     animation-timing-function: linear;
-    transform: rotate(1deg);
-    transform: scale(1);
-    animation-fill-mode: backwards;
+    transform:  scale(1);
+    animation-direction: alternate;
 }
 
 
@@ -13,7 +12,7 @@ p{
     from{}
     to{
         transform: scale(1.5);
-        transform: rotate(360deg);
+        
     }
 
 }

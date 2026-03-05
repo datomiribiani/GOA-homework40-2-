@@ -1,0 +1,20 @@
+div{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: div;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes div{
+    from{}
+    to{
+        transform: translateY(350px);
+        height: 50px;
+        width:  250px;
+    }
+
+}

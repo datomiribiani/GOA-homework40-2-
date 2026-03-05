@@ -4,6 +4,14 @@ div{
     height: 300px;
     animation-name: div;
     animation-iteration-count: 2;
-    animation-fill-mode: backwards;
-    
+    animation-fill-mode: forwards;
+    animation-duration: 6s;
+}
+
+
+@keyframes div{
+    from{}
+    to{
+        transform: rotate(720deg);
+    }
 }

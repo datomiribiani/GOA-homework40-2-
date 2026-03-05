@@ -1,0 +1,19 @@
+div{
+    width:100px;
+    height: 100px;
+    background-color: red;
+    animation-name: div;
+    border-radius: 50%;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes div{
+    from{}
+    to{
+        transform: scale(2);
+        
+    }
+}

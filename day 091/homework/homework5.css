@@ -4,7 +4,8 @@ div{
     height: 300px;
     animation-name: div;
     animation-iteration-count: infinite;
-    animation-timing-function: ease;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
 }
 
 @keyframes div{
