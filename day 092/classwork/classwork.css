@@ -1,0 +1,36 @@
+div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    animation-name: name;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+
+}
+
+@keyframes name {
+    0%{}
+    25%{
+        border: 2px solid yellow;
+        border-radius: 10px;
+        background-color: green;
+    }
+    50%{
+        background-color: green;
+        border: 2px solid yellow;
+        border-radius: 30px;
+        transform: translateX(300px);
+    }
+    75%{
+        background-color: purple;
+        border-radius: 50px;
+        transform: rotate(180deg);
+    }
+    100%{
+        background-color: orange;
+        border-radius: 50%;
+        border: 2px solid blue;
+        
+    }
+}
+
