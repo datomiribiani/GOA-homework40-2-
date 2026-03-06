@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.mze{
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: none;
+    animation-name: mze;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    box-shadow: 0px 0px 3px yellow;
+}
+
+@keyframes mze{
+    0%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 20%;
+        
+    }
+}
+
+.plane{
+    width: 850px;
+    height: 230px;
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    animation-name: plane;
+    animation-direction: alternate;
+    animation-duration: 2s;
+    transform: translateY(100px) translateX(150px);
+   
+}
+
+
+@keyframes plane {
+    0%{
+        
+    }
+    100%{
+        transform: translateX(250px);
+    }
+
+}
