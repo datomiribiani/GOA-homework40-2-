@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.road{
+    width: 100%;
+    height: 150px;
+    background-color: grey;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.car{
+    width: 350px;
+    position: absolute;
+    bottom: 120px;
+    animation-name: carss;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+
+.bor{
+    width: 80px;
+    position: absolute;
+    bottom: 120px;
+    left: 45px;
+    animation-name: carss;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+
+.borb{
+    width: 80px;
+    position: absolute;
+    bottom: 120px;
+    left: 215px;
+    animation-name: carss ;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes carss {
+    0%{}
+    80%{
+        transform: translateX(500px) ;
+    }
+    100%{
+        transform: translateX(900px);
+    }
+}
+
+.lighter{
+    width: 190px;
+    height:5px;
+    background-color: black;
+    transform: translate(800px , 530px) rotate(90deg);
+}
+
+.red{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    transform: translate(840px , 430px);
+    animation-name: red ;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 20px red;
+}
+
+@keyframes red {
+    0%{opacity: 100%;}
+    100%{
+        opacity: 50%;
+        box-shadow: 0px 0px 30px red;
+    }
+}
+.yeloo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    transform: translate(840px , 440px);
+    animation-name: yeloo ;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 20px yellow;
+    animation-delay: 1s;
+}
+@keyframes yeloo {
+    0%{opacity: 100%;}
+    100%{
+        opacity: 50%;
+        box-shadow: 0px 0px 30px yellow;
+    }
+}
+
+.green{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: green;
+    transform: translate(840px , 450px);
+    animation-name: green ;
+    animation-duration: 2s;
+    animation-direction:alternate;
+    animation-iteration-count: infinite;
+    box-shadow: 0px 0px 20px green;
+    animation-delay: 2s;
+}
+@keyframes green {
+    0%{opacity: 100%;}
+    100%{
+        opacity: 50%;
+        box-shadow: 0px 0px 30px green;
+    }
+}
+
+.child{
+    width: 150px;
+    transform: translate(1000px , 250px);
+    animation-name: childs;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-delay: 5s;
+}
+
+
+@keyframes childs {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(3600deg);
+    }
+}
+
+
