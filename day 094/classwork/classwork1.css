@@ -1,0 +1,13 @@
+.parrent{
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    border: 2px solid red;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
