@@ -1,0 +1,8 @@
+div{
+    width: 1800px;
+    height: 600px;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 600px 600px 600px ;
+    grid-template-rows: 300px 300px;
+}
