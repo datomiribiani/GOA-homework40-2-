@@ -1,0 +1,25 @@
+.parrent{
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+}
+
+
+.child1{
+    
+    width: 600px;
+    height: 50px;
+    background-color: red;
+    border-radius: 10%;
+}
+
+.child2{
+    background-color: orange;
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end:3;
+} 
+

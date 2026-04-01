@@ -1,0 +1,35 @@
+.parrent{
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px; 
+    border: 2px solid red;
+}
+
+
+.child1{
+    background-color: red;
+    display: grid;
+
+    grid-row: 1/3;
+}
+
+.child2{
+    background-color: orange;
+    display: grid;
+    grid-column: 2/4;
+}
+
+.child3{
+    background-color: green;
+    display: grid;
+    grid-row: 2/3;
+}
+
+.child4{
+    display: grid;
+    background-color: purple;
+    grid-row: 2/3;
+
+}
