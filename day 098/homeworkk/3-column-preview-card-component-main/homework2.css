@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 600px;
+}
+
+
+
+.parrent{
+    width: 600px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 300px;
+    border: 2px solid red;
+}
+
+.child1{
+    background-color: yellow;
+}
+.child1 p{
+    margin-bottom: 30px;
+
+}
+
+.child2{
+    background-color: green;
+}
+
+
+.child3{
+    background-color: blue;
+}
+
+
