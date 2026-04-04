@@ -1,43 +1,70 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 600px;
+body {
+
+  background: #f2f2f2;
+  display: grid;
+  place-items: center;
+  height: 100vh;
 }
 
 
-
-.parrent{
-    width: 600px;
-    height: 300px;
+.container {
+    width: 600px ;
+    height: 600px;  
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 300px;
-    border: 2px solid red;
-}
-
-.child1{
-    background-color: yellow;
-}
-.child1 p{
-    margin-bottom: 30px;
-
-}
-
-.child2{
-    background-color: green;
+    grid-template-columns: repeat(3, 300px);
+    border-radius: 10px;
 }
 
 
-.child3{
-    background-color: blue;
+.card {
+  padding: 40px;
+  color: white;
+  display: grid;
+  gap: 20px;
 }
 
+.sedan {
+  background: #e38826;
+}
+
+.suv {
+  background: #006970;
+}
+
+.luxury {
+  background: #004241;
+}
+
+
+.card h2 {
+  letter-spacing: 2px;
+}
+
+.card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+
+button {
+    width: 200px;
+    height: 200px;
+    background: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
 
