@@ -1,13 +1,8 @@
-//  aris komentari
+// 2)შექმენი სამი ცვლადი ერთი LET ის გამოყენებით და შიგნით შეინახე შენის სახელი , მეორე შექმენი CONST ით და  შიგნით შეინახე სიტყვა "LASHA", შემდეგიშექმენი VAR ით და შეინახე რაიმე სხვა სახელი
+// შენი დავალებაა რომ მოახდინო სამივე ცვლადში შენახულო მნშვნელობების კონკატიანცია და გამოიტანო კონსოლში
 
-// infs gamotana ---> console.log()
+let name= "dato"
+const kk= "lasha"
+var zz= "nika"
+console.log(name + kk + zz) 
 
-// 1)კონსოლში გამოიტანეთ თქვენის სახელი , ასაკი , სიმაღლე(ათწილადი) და ერთი boolean ტიპის მნიშნელობა
-
-// console.log("dato")
-// console.log(16)
-// console.log(1.64)
-// console.log(true)
-
-// cvladis sheqmna 
-let name = "giorgi"
