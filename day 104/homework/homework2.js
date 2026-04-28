@@ -9,3 +9,6 @@
 let name = 'str'
 var sur = 12
 const we = true  
+console.log(name)
+console.log(sur)
+console.log(we)

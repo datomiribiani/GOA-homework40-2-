@@ -10,7 +10,7 @@ consologi aris igive printi sadac vprintav rac chven mogvindeba
 
 5)კომენტარის სახით ახსნით თუ რა არის ცვლადი და როგორ ვქმნით ცვლადებს ჯს ში
 ჩამოწერე სამივე გზა 
-    cvladi  aris yuti sadac vinaxavt informacias  sul  gzaa ritac vwert cvlads let, var,const
+    cvladi  aris yuti sadac vinaxavt informacias  sul 3  gzaa ritac vwert cvlads let, var,const
 
 6)კომენტარის სახით თუ რა განსხვავებაა const და დაანარჩენ ორ keyword ით შექმნილ ცვლადებს შორის
 consti aris iseti cvladi sadac ucvleli xdeba da veranairad ver shevanacvlebt
@@ -19,6 +19,6 @@ consti aris iseti cvladi sadac ucvleli xdeba da veranairad ver shevanacvlebt
 // 2 , 3 ,4
 console.log("dato")
 console.log(16)
-console.log(1,8)
+console.log(1.8)
 
 

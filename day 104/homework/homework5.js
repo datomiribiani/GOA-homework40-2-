@@ -5,7 +5,7 @@ console.log(num1 + num2)
 console.log(num1 - num2)
 console.log(num1 * num2)
 console.log(num1 / num2)
-console.log(num1 ** num2)
+console.log(num1 * num2)
 console.log(num1 % num2)
 
 
@@ -17,7 +17,7 @@ console.log(num4 + num3)
 console.log(num4 - num3)
 console.log(num4 * num3)
 console.log(num4 / num3)
-console.log(num4 ** num3)
+console.log(num4 * num3)
 console.log(num4 % num3)
 
 
@@ -30,6 +30,6 @@ console.log(num5 + num6)
 console.log(num5 - num6)
 console.log(num5 * num6)
 console.log(num5 / num6)
-console.log(num5 ** num6)
+console.log(num5 * num6)
 console.log(num5 % num6)
 
