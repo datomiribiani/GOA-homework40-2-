@@ -13,7 +13,7 @@ let name = "dato"
 let surname = "miribiani"
 let age = 15
 let adrees = 'temka'
-console.log(`hello,my name is ${name}  and  my age is ${surname}, i live in ${adrees} `)
+console.log(`hello,my name is ${name}  and  my age is ${age}, i live in ${adrees} `)
 
 // 12)რას აკეთებს თითოეული მათგანია ახსენით:+= -= *== /= ++ --
 // +=  mokle chanaweri amatebs 
@@ -26,17 +26,16 @@ console.log(`hello,my name is ${name}  and  my age is ${surname}, i live in ${ad
 // 12)შექმენი ცვლადის სადაც შეინახავ number ტიპის მონაცემს,შემდეგ გაზარდე ამ ცვლადის მნიშვნელობა 5 ით(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი 
 let num = 15
 let ww = 5
-console.log(num + 5)
+console.log(num += 5)
 
 // 13)შექმენი ცვლადის სადაც შეინახავ number ტიპის მონაცემს,შემდეგ შეამცირე ამ ცვლადის მნიშვნელობა 3 ით(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი
 let num1 = 17
 let name = 3
-console.log(num - name)
+console.log(num -= name)
 
 // 14)შექმენი ცვლადის სადაც შეინახავ number ტიპის მონაცემს,შემდეგ შეამცირე ამ ცვლადის მნიშვნელობა 3 ით(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი
 let num2= 15
-let nun = 3
-console.log(num2 -- nun )
+console.log(num2 -= 3 )
 
 // 15)შექმენი ცვლადის სადაც შეინახავ number ტიპის მონაცემს,შემდეგ გაამრავლე ამ ცვლადის მნიშვნელობა 6 ზე(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი
 let num4 = 25
@@ -50,9 +49,7 @@ console.log(number /= number2)
 
 // 17)შექმენი ცვლადი და შეინახე რიცხვი,შენი დავალებაა შესაბამისი ოპერატორით გაზარდო ამ ცვლადის მნშვნელობა 1 ით(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი
 let number5 = 12
-let number3 =1
-console.log(number5 += number3)
+console.log(number5 ++)
 // 18)შექმენი ცვლადი და შეინახე რიცხვი,შენი დავალებაა შესაბამისი ოპერატორით შეამცირო ამ ცვლადის მნშვნელობა 1 ით(გამოიყენე შესაბამისი ოპერატორი),დაბეჭდე ცვლადი რომ ნახო შედეგი
 let number5 = 12
-let number3 =1
-console.log(number5 -= number3)
+console.log(number5 --)
