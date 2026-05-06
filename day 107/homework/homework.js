@@ -1,16 +1,17 @@
 /*1)კომენტარის სახით ახსენით თუ რა არის typeof და რაში გვეხმარება ის
 // typeof igebs monacemta tips  da gvexmareba romgavigot ra monacemta tipia
-2)შექმენი ცვლადი და შეინახე რაიმე რიცხვი,შენი დავალებაა გამოიტანო ამ ცვლადში შენახული ელემენტის მონაცემთა ტიპი
 
+2)შექმენი ცვლადი და შეინახე რაიმე რიცხვი,შენი დავალებაა გამოიტანო ამ ცვლადში შენახული ელემენტის მონაცემთა ტიპი
 let num1 =13
 console.log(typeof num1) number
 
 3)შექმენი ცვლადი და შეინახე რაიმე სტრინგი,შენი დავალებაა გამოიტანო ამ ცვლადში შენახული ელემენტის მონაცემთა ტიპი
-let str  = 'string
+let str  = 'string'
 console.log(typeof str) str
+
 4)შექმენი ცვლადი და შეინახე boolean ტიპის მონაცემი,შენი დავალებაა გამოიტანო ამ ცვლადში შენახული ელემენტის მონაცემთა ტიპი
-let boll1 = true
-console.log(boll1) 
+let boll1 = true 
+console.log(typeof boll1) 
 5)შექმენი ცვლადი და შეინახე undefined,შენი დავალებაა გამოიტანო ამ ცვლადში შენახული ელემენტის მონაცემთა ტიპი
 let name
 console.log(name)
@@ -93,6 +94,7 @@ console.log(str.trim())
 19)let username = "   goga123   ";
 მოაშორე ზედმეტი სფეისები და დაბეჭდე
 console.log(username.trim())
+
 20)let str = "   HeLLo WoRLd   ";
 console.log(str.trim().toLowerCase())
 
