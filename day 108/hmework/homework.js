@@ -34,7 +34,7 @@ console.log(name1 + name2)
 let name = prompt("enter name")
 let surname = prompt("enter surname")
 let age = Number(prompt("enter age"))
-console.log(`my name is %{name} , my surname is ${surname} and my age is ${age})
+console.log(`my name is ${name} , my surname is ${surname} and my age is ${age})
 
 5)მომხმარებელს შემოატანინე რაიმე რიცხვი,შემდეგ გადააქციე ეს სტრინგი რიცხვი ნამბერად შესაბამისი მეთოდით და დაბეჭდე მისი ტიპი
 let num = Number(prompt("enter num"))
@@ -49,11 +49,12 @@ let name1 = Number(prompt("enter num"))
 let name2 = Number(prompt("enter num"))
 let name3 = Number(prompt("enter num"))
 let name4 = Number(prompt("enter num"))
-console.log(String(name1) + String(name2)+ name3) + String(name4))
+console.log(String(name1) + String(name2)+  String(name3) + String(name4))
+
 8)მომხმარებელს შემოატანინე ორი რიცხვი, შენი დავალებაა კონსოლში გამოიტანო რამდენია პირველი ამ ორი რიცხვის გაყოფისას მიღებული ნნაშთი(გამოიყენე შესაბამისი ფუნქცია და მათემატიკური ოპეტაროტი-->გადახედეთ გავლილს)
 let num = Number(prompt("enter num"))
 let num1 = Number(prompt("enter num"))
-console.log(num / num1)
+console.log(num % num1)
 
 9)მომხმარებელს შემოატანინე ორი რიცხვი,შენი დაალებაა გაიგო ამ ორი რიცხვის ნამრავლი
 let num = Number(prompt("enter num"))
@@ -65,7 +66,8 @@ let num1 = Number(prompt("enter num"))
 let num2= Number(prompt("enter num"))
 let num3 = Number(prompt("enter num"))
 let num4 = Number(prompt("enter num"))
-console.log(num + num1 + num2 + num3 + num4 / 5 )
+console.log((num + num1 + num2 + num3 + num4 ) / 5 )
+
 11)შექმენი ცვლადი სადაც მომხმარებელი შემოტანს სტრინგს,შემდეგ დაბეჭდე მისი ტიპი
 შემდეგ შენი დავალებაა ეს ცვლადი განაახლო ახალი მომხმარებლის მიერ შემოყვანილო მნიშვნელობით რომელიც იქნება უკვე რიცხვი,შემდეგ დაბეჭდე მისი ტიპიც
 let str = prompt("enter str")
@@ -75,7 +77,7 @@ console.log(typeof str)
 
 12)მომხმარებელს შემოატანინე რაიმე სახელი,შენი დავალებაა რომ გადაიყვანო ეს სახელი დიდ ასოებში და გამოიტანო კონსოლში
 let name = prompt("enter name")
-console.log(nae.toUppercase)
+console.log(name.toUppercase())
 13)მომხმარებელს შემოაყვანინე რაიმე სახელი,შემდეგ შემოატანინე რაიმე ასო
 შენი დავალებაა გაიგო იწყება თუ არა მომხმარებლის მიერ შემოტანილის სახელი მის მიერ შემოყვანილ ასოზე
 let name = prompt("enter name")
@@ -84,7 +86,7 @@ console.log(name.StartWith(name1))
 
 14)მომხმარებელს შემოატანინე რაიმე სახელი ოღონდ დიდი ასოებით,შენი დავალებაა გადააქციო ეს სახელი პატარა ასოებად და გამოიტანო კონსოლში
 let name = prompt("enter name")
-console.log(name.toLowercase)
+console.log(name.toLowercase())
 
 15)მომხმარებელს შემოატანინე რაიმე სტრინგი რასაც გარშემო ექნება სფეისები,შენი დავალებაა დააკონსოლლოგო ეს სტრინგი სფეისების გარეშე
 let name = prompt("       enter name        ")
