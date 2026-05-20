@@ -23,7 +23,7 @@ if(pass.length > 8){
 trim() გამოიყენე და თუ ტექსტის სიგრძე 0 გამოვიდა, დაწერე "ცარიელი ტექსტია", სხვა შემთხვევაში "ტექსტი შევსებულია".
 
 let name = prompt("enter name")
-if (name.trim() == 0 ){
+if (name.trim().length == 0 ){
     console.log("ცარიელი ტექსტია")
 }else{
     console.log("ტექსტი შევსებულია")
@@ -34,9 +34,9 @@ if (name.trim() == 0 ){
 
 let name = prompt("enter name")
 if (name.startsWith("a")){
-    console.log(name.touppercase)
+    console.log(name.touppercase())
 }esle{
-    console.log(name.tolowercase)
+    console.log(name.tolowercase())
 }
 
 5)შექმენი ცვლადი სადაც შეინახავ რაიმე სტრინგს
@@ -46,7 +46,7 @@ let str = prompt("enter str")
 if (str.startrsWith("k")){
     console.log(str.length)
 }esle{
-    xonsole.log("error")
+    console.log("error")
 }
 
 */
