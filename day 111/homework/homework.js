@@ -24,7 +24,7 @@ console.log(nn !== ww)
 4)მომხმარებელს შემოატანინე ასაკი prompt-ით.
 შეამოწმე:
 let name = Number(prompt("enter num"))
-if(name >= 18){
+if(name >= 18 | name<= 18 ){
     console.lg(name)
 }
 არის თუ არა 18-ზე მეტი
@@ -48,7 +48,7 @@ console.log(temperature >30 || temperature <0)
 7)მომხმარებელს შემოატანინე რიცხვი.
 შეამოწმე:
 let name = Number(prompt("entr num"))
-console.log(name  > 100 || 50)
+console.log(name  > 100 || name <  50)
 არის თუ არა 100-ზე დიდი
 არის თუ არა 50-ზე ნაკლები
 
