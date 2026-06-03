@@ -5,7 +5,7 @@
 და მთლიანად uppercase არ არის
 
 let pasww = prompt("enter password")
-if(pasww.trim().startWith("GOA").length > 10 && pasww != pasww.touppercase()){
+if(pasww.trim().startWith("GOA") && pasww.length > 10 && pasww != pasww.touppercase()){
     console.log("Strong password")
 }else{
     console.log("Weak password")
@@ -19,7 +19,7 @@ if(pasww.trim().startWith("GOA").length > 10 && pasww != pasww.touppercase()){
 და სახელი იწყება "g"-ზე
 let age = Number(prompty("enter age:")
 let name = prompty("enter age:"))
-if(age < 18){
+if(age > 18 && name.startsWith("g")){
     console.log("axalgazrda")
 }else{
     console.log("Wrong username")
@@ -32,8 +32,9 @@ if(age < 18){
 არის თუ არა ტიპი (typeof) string და
 აქვს თუ არა მინიმუმ 5 სიმბოლო
 და იწყება თუ არა "hello"-თი 
+
 let txt = prompt("ent")
-if(txt.typeof === "string" && txt > 5 && txt.startWith("hello")){
+if(txt.typeof === "string" && txt.length > 5 && txt.startWith("hello")){
     console.log("Valid text")
 }else{
     console.log("Invalid text")
@@ -49,9 +50,10 @@ if(txt.typeof === "string" && txt > 5 && txt.startWith("hello")){
 და პირველი სიტყვა uppercase-ში არ უდრის მეორეს uppercase-ში
 დაბეჭდე "Different long words"
 სხვა შემთხვევაში → "Failed"
+
 let name1 = prompt("name1")
 let name2 = prompt("name2")
-if(name1.lrngth + name2.length > 12 &&  name1.touppercase() != name2.touppercase()){
+if(name1.length + name2.length > 12 &&  name1.touppercase() != name2.touppercase()){
     console.log("Different long words")
 }else{
     console.log("Failed")
@@ -63,6 +65,7 @@ if(name1.lrngth + name2.length > 12 &&  name1.touppercase() != name2.touppercase
 ან lowercase-ში უდრის "sakartvelo"
 დაბეჭდე "Correct country"
 სხვა შემთხვევაში → "Unknown country"
+
 let cnt = prompt("qveyaba:")
 if(cnt.touppercase() ===  "GEORGIA"  || cnt.tolowercase() === "sakartvelo"){
     console.log("Correct country")
@@ -90,6 +93,7 @@ if(pas.length >= 8 && =<15){
 ტექსტის length ლუწია
 და lowercase ტექსტი არ იწყება "x"-ზე
 და uppercase ტექსტი არ უდრის ორიგინალს
+
 let text = prompt("enter txt")
 if(text.length % 2 === 0 && text.tolowercase() && text != text.startWith("x") && text.touppercase() != text){
     console.log("Accepted")
@@ -106,9 +110,10 @@ if(text.length % 2 === 0 && text.tolowercase() && text != text.startWith("x") &&
 და ორივეს length მინიმუმ 6 აქვს
 დაბეჭდე "Matching users"
 სხვა შემთხვევაში → "Users failed"
+
 let name1 = prompt("user1") 
 let name2 = prompt("user2")
-if(name1.startWith("go") && name2.startWith("go") && name1 !== name2 name1.length  <=6  && name2.length  <=6){
+if(name1.startWith("go") && name2.startWith("go") && name1 !== name2  && name1.length  <=6  && name2.length  <=6){
     console.log("Matching users")
 }else{
     console.log("Users failed")
@@ -152,7 +157,7 @@ username იწყება "user"-ით
 და role lowercase-ში უდრის "admin"
 let name  = prompt("user")
 let name1  = prompt("role")
-if(name.startWith(user) && name1.lowecase() === "admin"){
+if(name.startWith(user) && name1.lowerCase() === "admin"){
     console.log("Fake admin")
 }else if(name.startWith("admin") && name1.lowercase() === "admin"){
     console.log("Real admin")
