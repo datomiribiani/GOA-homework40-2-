@@ -13,14 +13,16 @@ if(name){
 2)შექმენი ცვლადი nickname.
 თუ მომხმარებელმა არაფერი შეიყვანა, გამოიყენე "Guest" მნიშვნელობა || ოპერატორით.
 ბოლოში დაბეჭდე nickname.
+
 let nickname = prompt("შეიყვანე nickname") || "Guest";
 console.log(nickname);
 
 3)მომხმარებელს შემოატანინე ტექსტი.
 თუ ტექსტი არსებობს და .trim() შემდეგ სიგრძე 5-ზე მეტია → "გრძელი ტექსტია"
 სხვა შემთხვევაში → "მოკლე ტექსტია".
+
 let text = prompt("enter text")
-if(text === true && text.trim() && text.length > 5){
+if(text && text.trim().length > 5){
     console.log("გრძელი ტექსტია")
 }else{
     console.log("მოკლე ტექსტია")
@@ -31,7 +33,7 @@ if(text === true && text.trim() && text.length > 5){
 თუ ასაკი falsy-ა → "ასაკი არ არის შეყვანილი".
 
 let age = Number(prompt("enter age"))
-if(age === true && age > 18){
+if(age && age > 18){
     console.log("სრულწლოვანი")
 }else{
     console.log("ასაკი არ არის შეყვანილი")
@@ -40,9 +42,10 @@ if(age === true && age > 18){
 5)mომხმარებელს შემოატანინე ორი მნიშვნელობა.
 თუ ორივე truthy-ა → "ორივე სწორია"
 თუ ერთ-ერთი falsy-ა → "რომელიღაც ცარიელია".
+
 let nickname = prompt("შეიყვანე nickname")
-let nickname = prompt("შეიყვანე nickname")
-if(nickname){
+let nickname1 = prompt("შეიყვანე nickname")
+if(nickname && nickname1){
     console.log("ორივე სწორია")
 }else{
     console.log("რომელიღაც ცარიელია")
@@ -63,8 +66,9 @@ typeof არის "string"
 და length 3-ის ჯერადია
 დაბეჭდე "Special string"
 სხვა შემთხვევაში → "Normal string"
+
 let name = prompt("enter name")
-if(name.typeof === "string" && !== "" && name.length % 3 ===0  ){
+if(typeof name === "string" && name !== "" && name.length % 3 ===0  ){
     console.log(""Special string"")
 }else{
     console.log("Normal string")
@@ -95,9 +99,10 @@ if(name.startsWith("go") && name1.startsWith("go") && name !== name1 && name1.le
 და პაროლი uppercase-ში არ უდრის ორიგინალს
 დაბეჭდე "Passwords match"
 სხვა შემთხვევაში → "Passwords do not match"
+
 let name = prompt("enter name")
 let name1 = prompt("enter name")
-if(name === name1 && name.length > 8 && name !== name1 ){
+if(name === name1 && name.length > 8 && name.toUpperCase() !== name ){
     console.log("Passwords match")
 }else{
     console.log("Passwords do not match")
@@ -111,6 +116,7 @@ if(name === name1 && name.length > 8 && name !== name1 ){
 დაბეჭდე "Programming text"
 თუ length ნაკლებია 5-ზე → "Too short"
 let name = prompt("enter name")
+
 if(name.startsWith("java") || ame.lrngth > 20 ){
     console.log(""Programming text"")
 }else if(name.length<5){
@@ -124,11 +130,12 @@ if(name.startsWith("java") || ame.lrngth > 20 ){
 თუ:
 username იწყება "user"-ით
 და role lowercase-ში უდრის "admin"
+
 let name = prompt("username")
 let role = prompt("username")
-if(name.startsWith("user")&& role.lowerCase === "admin" ){
+if(name.startsWith("user")&& role.toLowerCase() === "admin" ){
     console.log("fake admin")
-}else if(name.startsWith("admin")&& role.lowerCase === "admin"){
+}else if(name.startsWith("admin")&& role.toLowerCase() === "admin"){
     console.log("Real admin")
     }else{
         console.log("normal user")
