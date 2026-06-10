@@ -131,7 +131,7 @@ guest
 
 
 // 1
-let age = prompt("etnter age:")
+let age = Number(prompt("etnter age:"))
 age >=18 ? console.log("shegilia xma misce") : console.log("jer ver miscem xmas")
 
 // 2 
