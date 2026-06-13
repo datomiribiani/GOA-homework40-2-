@@ -4,7 +4,10 @@
 function greet(name){
     console.log("hello" + name)
 }
-name("dato")
+greet("dato")
+greet("gio")
+greet("luka")
+
 
 // 2)შექმენი ფუნქცია showAge(age), რომელიც დაბეჭდავს: You are age years old.
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
@@ -13,20 +16,19 @@ function showAge(age){
     console.log("you are" + age + "years old"   )
 }
 
-age(15)
-age(32)
-age(12)
-age(67)
+showAge(15)
+showAgeage(32)
+showage(12)
+showage(67)
 
 // 3)შექმენი ფუნქცია sum(a, b), რომელიც დაბეჭდავს ორი რიცხვის ჯამს.
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
 function sum(a, b){
     console.log(a + b)
 } 
-a(12)
-b(14)
-a(133)
-b(434)
+sum(12,14)
+sum(12,14)
+sum(12,14)
 // 4)შექმენი ფუნქცია multiply(a, b), რომელიც დაბეჭდავს ორი რიცხვის ნამრავლს.
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
 function multiply(a, b){
@@ -34,10 +36,9 @@ function multiply(a, b){
 
 }
 
-a(143432)
-b(14344)
-a(1343433)
-b(4434344)
+multiply(143432,14344)
+multiply(1343433,4434344)
+
 
 // 5)შექმენი ფუნქცია fullName(firstName, lastName), რომელიც დაბეჭდავს სრულ სახელს ერთ სტრინგად.
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
@@ -45,12 +46,10 @@ b(4434344)
 function fullName(firstName, lastName){
     console.log(firstName + lastName)
 }
-firstName("dato")
-lastName("miribiani")
-firstName("rezi")
-lastName("maxaradze")
-firstName("saba")
-lastName("bezuashvili")
+fullName("dato" ,"miribiani")
+firstName("rezi","maxaradze")
+firstName("saba","bezuashvili")
+
 
 // 6)შექმენი ფუნქცია isAdult(age).
 // თუ ასაკი(პარამეტი) 18 ან მეტია, დაბეჭდოს Adult, სხვა შემთხვევაში Minor.(გამოიყენე ternary)
@@ -58,10 +57,10 @@ lastName("bezuashvili")
 function  isAdult(age){
     age > 18? console.log("adult"):console.log("minor")
 }
-age(13)
-age(53)
-age(55)
-age(123)
+isAdult(13)
+isAdult(53)
+isAdult(55)
+isAdult(123)
 // 7)შექმენი ფუნქცია checkNumber(num).
 // თუ რიცხვი(პარამეტრი) დადებითია — დაბეჭდოს Positive, უარყოფითია — Negative, ხოლო 0-ზე — Zero , გამოიყენე ternary
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
@@ -70,9 +69,9 @@ function  checkNumber(num){
     num>0?console.log("positive"): num< 0? console.log("negative"):console.log("zero")
 }
 
-num(12)
-num(-12)
-num(0)
+checkName(12)
+checkName(-12)
+checkName(0)
 // 8)შექმენი ფუნქცია rectangleInfo(width, height), რომელიც დაბეჭდავს მართკუთხედის ფართობს: width * height.
 // გამოიძახე ფუნქცია რამდენჯერმე განსხვავებული არგუმენტებით
 // # harder
@@ -81,12 +80,10 @@ function rectangleInfo(width, height){
 
 }
 
-width(12)
-height(154)
-width(32)
-height(44)
-width(122)
-height(54)
+rectangleInfo(12,154)
+rectangleInfo(32,44)
+rectangleInfo(122,54)
+
 
 // 9)შექმენი ფუნქცია greetUser(name, time).
 // თუ time არის "morning", დაბეჭდოს Good morning, ${name}!
@@ -94,23 +91,21 @@ height(54)
 // სხვა შემთხვევაში — Hello, name!
 // გამოძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით
 function  greetUser(name, time){
-    time === "morning" ? console.log("Good morning", ${name}): time === "evening"?console.log("Good evening", ${name}):console.log("hello", name)
+    time === "morning" ? console.log(`Good morning, ${name}`): time === "evening"?console.log(`Good evening, ${name}`):console.log("hello", name)
 
 }
 
-name("dato")
-time("morning")
-name("rezi")
-time("evening")
-name("saba")
-time("game")
+greetUser("dato","morning")
+greetUser("rezi","evening")
+greetUser("saba","game")
+
 
 // 10)შექმენი ფუნქცია checkPassword(password).
 // თუ პაროლის სიგრძე 8-ზე ნაკლებია, დაბეჭდოს Password is too short, სხვა შემთხვევაში Password accepted.(ternary)
 // გამოძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით
 
 function checkPassword(password){
-    password.length < 8? console.log("Password is too short"):console.log(Password accepted)
+    password.length < 8? console.log("Password is too short"):console.log("Password accepted")
 
 }
 
@@ -127,12 +122,13 @@ function checkName(name){
         console.log("Does not start with G.")
     }
 }
-
+checkName("dato")
+checkName("gio")
 // 12)შექმენი ფუნქცია lower(word) რომელიც არგუმენტად გადაცემულ სიტყვას გადაიყვანს მთლიანად აფერქეისში
 // გამოძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით
 
 function lower(word){
-    console.log(word.upperCase())
+    console.log(word.toUpperCase())
 }
-word("sfhfc")
-word("fygdghcc")
+lower("sfhfc")
+lower("fygdghcc")
