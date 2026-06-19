@@ -3,18 +3,20 @@
 // // თუ არგუმენტი გადაეცა:
 // "Hello Giorgi"
 function greet(name = "Guest"){
-    return "hello  guest"
+    return "hello" + name
 }
-greet = "giorgi"
+greet()
 
 // 2)შექმენი ფუნქცია favoriteColor(color = "blue").
 // ფუნქციამ უნდა დააბრუნოს:
 // "My favorite color is blue"
 // ან გადაცემული ფერი.
 function favoriteColor(color = "blue"){
-    return "My favorite color is blue"
+    return "My favorite color is" + color
 }
+
 favoriteColor()
+
 // 3)შექმენი ფუნქცია:
 // multiply(a = 1, b = 1)
 // რომელიც დააბრუნებს ნამრავლს.
