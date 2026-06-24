@@ -25,7 +25,7 @@ calculateSalary(10,30)
 // "Zero"
 // .sign()
 function numberType(num){
-    return Math.sign(num)?"positive": Math.sign(num) ?"negative":"zero"
+    return Math.sign(num) === 1?"positive": Math.sign(num) ===-1 ?"negative":"zero"
 }
 
 // 4)ბილეთის ფასი
@@ -37,7 +37,7 @@ function numberType(num){
 // 12-დან 60 წლამდე → 15 ლარი.
 // 60+ → 8 ლარი.
 function ticketPrice(age, isStudent = false){
-    switch(ticketPrice){
+    switch(true){
         case age <= 12:
             return "5L"
             break
@@ -53,6 +53,7 @@ function ticketPrice(age, isStudent = false){
         }   
 
 }
+console.log(ticketPrice(40))
 
 // 5)შექმენი ფუნქცია:
 // grade(score)
@@ -63,7 +64,7 @@ function ticketPrice(age, isStudent = false){
 // 60-69 → "D"
 // 0-59 → "F"
 function grade(score){
-    switch(grade){
+    switch(true){
         case score > 90:
             return "A"
                 break
