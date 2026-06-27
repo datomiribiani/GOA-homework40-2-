@@ -60,8 +60,8 @@ const pass = function(chekword){
 // ternary
 // გამოიძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით და ნახე შედეგი
 
-const arro = isadult =>{
-    return isadult > 18 ? "adult":"minor"
+const arro = isadult =>isadult > 18 ? "adult":"minor"{
+   
 }
 
 arro(12)
@@ -71,8 +71,8 @@ arro(3)
 
 // 7)შექმენი Arrow Function --> rectangleArea, რომელიც მიიღებს სიგრძეს და სიგანეს და დააბრუნებს ფართობს.
 // გამოიძახე ფუნქცია რამდენჯერმე სხვადასხვა არგუმენტებით და ნახე შედეგი
-const rectangleArea = (wih,heit) =>{
-    return wih * heit
+const rectangleArea = (wih,heit) => wih * heit{
+   
 }
 rectangleArea(12,12)
 rectangleArea(1232,5232)
@@ -82,8 +82,8 @@ rectangleArea(1232,5232)
 // თუ პაროლის სიგრძე 8-ზე ნაკლებია და პაროლი მთავრდება ასო "ი" თი→ "Weak"
 // თუ 8 ან მეტია და იწყება ასო "გ" თი → "Strong"
 
-const pass = passwordStrength =>{
-   return  passwordStrength.length < 8 && passwordStrength.endsWith("i")?"weak" :passwordStrength.length>8 && passwordStrength.startsWith("g") ?"stong":"error" 
+const pass = passwordStrength => passwordStrength.length < 8 && passwordStrength.endsWith("i")?"weak" :passwordStrength.length>8 && passwordStrength.startsWith("g") ?"stong":"error" {
+ 
 }
 
 pass('dgfshfhsfdgdgdgd')
@@ -91,8 +91,8 @@ pass("gefeudhcfvcf")
 
 // 9)შექმენი Arrow Function -->  startsWith რომელიც მიიღებს რაიმე სტრინგს
 // თუ სტრინგი იწყება "გ" თი და მთავრდება "ო" თი და სიგრძე trim() ით მეტია 8 ზე დააბრუნე --> რთული სახელი , სხვა შემთხვევაში მარტივი სახელი
-const startss = starts =>{
-   return  starts.startsWith("g") && starts.endsWith("o") &&  starts.length.trim() > 8 ?"rtuli saxeli":'martivisaxeli'
+const startss = starts => starts.startsWith("g") && starts.endsWith("o") &&  starts.length.trim() > 8 ?"rtuli saxeli":'martivisaxeli'{
+
 }
 
 
@@ -101,8 +101,7 @@ const startss = starts =>{
 
 // 10)შექმენი formatUsername, რომელიც ერთ ხაზში დააბრუნებს username-ს პატარა ასოებით.
 
-const formatUsername = user =>{
-    return ServiceWorker.lowerCase()
+const formatUsername = user => ServiceWorker.lowerCase(){
 }
 
 formatUsername("DSDFDFDF")
@@ -112,21 +111,21 @@ formatUsername("DSDFDFDF")
 // "Access Denied" სხვა შემთხვევაში
 // ternary
 
-const chekcode = uiser =>{
-    return uiser === "1234"? "Access Granted":"access Denied"
+const chekcode = uiser => uiser === "1234"? "Access Granted":"access Denied"{
+    
 }
 
 // 12)შექმენი isLongText, რომელიც ერთ ხაზში დააბრუნებს true, თუ ტექსტის სიგრძე 10-ზე მეტია. 
-const islongtext = yse =>{
-    return yse.length  > 10?"true":"fasle"
+const islongtext = yse => yse.length  > 10?"true":"fasle"{
+    
 }
 
 // 13)შექმენი passedExam, რომელიც ერთ ხაზში დააბრუნებს:
 // "Passed" თუ ქულა 51 ან მეტია
 // "Failed" სხვა შემთხვევაში
 
-let passexam = exm =>{
-    return exm > 51 ?"passed":"failed"
+let passexam = exm => exm > 51 ?"passed":"failed"{
+    
 }
 
 // ternary
@@ -134,6 +133,6 @@ let passexam = exm =>{
 // 14)შექმენი freeDelivery, რომელიც ერთ ხაზში დააბრუნებს true, თუ შეკვეთის ფასი 100₾-ზე მეტია. სხვა შემთხვევაში false
 // ternary
 
-const freedelivery = yys =>{
-    return yys > 100 ?"true":"false"
+const freedelivery = yys => yys > 100 ?"true":"false"{
+    
 }
